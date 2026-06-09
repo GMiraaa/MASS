@@ -2,6 +2,7 @@ import { Navigate } from "react-router-dom";
 import { createBrowserRouter } from "react-router-dom";
 import Login from "./pages/Login";
 import Cadastro from "./pages/Cadastro";
+import Produtos from "./pages/Produtos";
 
 const router = createBrowserRouter([
     {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
             {
                 path: "/cadastro",
                 element: <Cadastro />
+            },
+            {
+                path: "/produtos",
+                element: <Produtos />
             }
         ]
     }
