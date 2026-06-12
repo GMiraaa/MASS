@@ -2,7 +2,7 @@ import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import "../index.css"
 
-export default function cadastro() {
+export default function Cadastro() {
 
     const [nome, setNome] = useState("");
     const [sobrenome, setSobrenome] = useState("");
