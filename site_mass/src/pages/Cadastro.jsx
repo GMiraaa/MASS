@@ -136,9 +136,9 @@ export default function cadastro() {
                             <div className="h-4 text-red-600 text-xs mt-1 mb-1" id="box_erro4"></div>
                         </div>
 
-                        <div className="h-40 border border-gray-400/20 p-2 rounded-2xl ">
+                        <div className="h-40 border border-gray-400/20 p-2 rounded-2xl mb-2">
                             <p>Sua senha deve ter:</p>
-                            <div className="grid-cols-3 grid-rows-2 text-xs text-justify">
+                            <div className="flex flex-col text-xs text-justify font-semibold gap-2">
                                 <p className={validacoes.tamanho ? "text-green-600" : "text-red-600"}>Mínimo de 6 caracteres</p>
                                 <p className={validacoes.especial ? "text-green-600" : "text-red-600"}>Possui caracteres especiais</p>
                                 <p className={validacoes.numero ? "text-green-600" : "text-red-600"}>Possui numero</p>

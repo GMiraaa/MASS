@@ -58,12 +58,12 @@ export default function login() {
                 <div className="text-center">
                     <div className="">
                         <h2 className="text-2xl mb-2 text-left">Email:</h2>
-                        <input type="text" className="bg-white rounded px-3 py-2 w-full" placeholder="exemplo@gmail.com" id="input_email" onChange={(e) => setEmail(e.target.value)} /><br />
+                        <input type="text" className="bg-white rounded border border-transparent px-3 py-2 w-full" placeholder="exemplo@gmail.com" id="input_email" onChange={(e) => setEmail(e.target.value)} /><br />
                         <div className="h-5 text-red-600 text-xs mt-1" id="box_erro1"></div>
                     </div>
                     <div className="mb-5">
                         <h2 className="text-2xl mb-2 text-left">Senha:</h2>
-                        <input type="password" className="bg-white rounded px-3 py-2 w-full" placeholder="***********" id="input_senha" onChange={(e) => setSenha(e.target.value)} /><br />
+                        <input type="password" className="bg-white rounded border-transparent px-3 py-2 w-full" placeholder="***********" id="input_senha" onChange={(e) => setSenha(e.target.value)} /><br />
                         <div className="h-5 text-red-600 text-xs mt-1" id="box_erro2"></div>
                     </div>
 
