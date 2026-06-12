@@ -1,10 +1,15 @@
 import { useNavigate } from "react-router-dom"
 import { useLocation } from "react-router-dom"
+import Sidebar from "../components/Sidebar"
 
-export default function produtos() {
-    return(
-        <div>
+export default function Produtos() {
+    return (
+        <main className="flex w-screen h-screen">
+            <Sidebar></Sidebar>
 
-        </div>
+            <div>
+                <p>Teste</p>
+            </div>
+        </main>
     )
 }
