@@ -47,7 +47,7 @@ export default function Login() {
             }, 2500);
         }
         else {
-            navigate("/produtos");
+            navigate("/home");
         }
 
     }
